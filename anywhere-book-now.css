@@ -16,28 +16,24 @@
   height: 80%;
   background: #fff;
   border-radius: 8px;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .anywhere-close {
-    all: unset;               /* removes default button styles */
     display: flex;
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     justify-content: center;
     align-items: center;
     position: absolute;
-    right: -8px;
+    right: -9px;
     top: -9px;
     cursor: pointer;
-    padding: 3px;
     z-index: 3;
     border-radius: 12px;
     border: 1px solid #fff;
     background: #181818;
-    box-shadow:
-        rgba(0, 0, 0, 0.12) 0px -1px 4px,
-        rgba(0, 0, 0, 0.16) 0px 8px 16px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px -1px 4px, rgba(0, 0, 0, 0.16) 0px 8px 16px;
 }
 
 
